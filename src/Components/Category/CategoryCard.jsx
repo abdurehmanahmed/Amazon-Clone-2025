@@ -8,15 +8,15 @@ const CategoryCard = ({data}) => {
   return (
     <div className={aaa.category}>
         
-        <a href = {data.name}>
+        <Link to = {`category/${data.name}`}>
             <span>
                 <h2>{data.title}</h2>
             </span>
             <img src={data.imageLink} alt="" />
-            <div>
+            <div>  
             <p>shop now</p>
             </div>
-        </a>
+        </Link>
     </div>
   )
 

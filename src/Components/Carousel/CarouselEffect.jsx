@@ -25,4 +25,5 @@ const CarouselEffect = () => {
   )
 }
 
+
 export default CarouselEffect 
